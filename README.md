@@ -3,9 +3,9 @@
 <ol>
     <li>clone on htdocs/{file name}</li>
     <li>change Database name into .env file</li>
-    <li>
+    <li> <p>
         ##### run
-            php artisan migrate
+        php artisan migrate </p>
     </li>
     <li>
         ##### run
