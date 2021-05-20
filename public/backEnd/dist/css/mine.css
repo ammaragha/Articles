@@ -1,0 +1,28 @@
+/* =================================================/ */
+/* ======== my Css ================== */
+.links{
+    display: none;
+}
+.links a,
+.links button{
+    position: absolute;
+    top: -13px;
+    right: 4px;
+    border-radius: 36%;
+    font-weight: bold;
+}
+.links a:first-child{
+    top: 68px;
+}
+.links a:nth-child(2){
+    top: 27px;
+}
+
+.card:hover > form .links{
+    display: block;
+}
+
+
+
+
+/* ================================================= */

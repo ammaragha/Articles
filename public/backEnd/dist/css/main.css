@@ -1,0 +1,42 @@
+h1{
+    margin-bottom: 50px;
+}
+/* ----------------------------------------- */
+.tab{
+    margin-bottom: 20px;
+}
+.tab .info{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    height: 140px;
+    border-radius: 8px;
+    color: white;
+}
+.tab .info i{
+    font-size: 80px;
+    height: 100%;
+    float: left;
+}
+.tab .info div{
+    float: left;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.tab .info span{
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+}
+.tab:first-child .info{
+    background-color: #0074d9;
+}
+.tab:nth-child(2) .info{
+    background-color: #7fdbff;
+}
+.tab:nth-child(3) .info{
+    background-color: #39cccc;
+}
+.tab:last-child .info{
+    background-color: #2ecc40;
+}
