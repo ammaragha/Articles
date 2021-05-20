@@ -6,9 +6,8 @@
     <li>run
         <code> php artisan migrate </code>
     </li>
-    <li>
-        ##### run
-            php artisan serve
+    <li>  run
+        <code> php artisan serve </code>
     </li>
     <li>    Admin Email : admin@admin.com
             <br>
